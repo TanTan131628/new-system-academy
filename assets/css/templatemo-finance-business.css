@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: #e78e18;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -45,8 +45,8 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
+	background-color: black;
+	color: #e78e18;
 }
 
 a.border-button {
@@ -94,7 +94,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #a4c639;
+  background: #e78e18;
   left: 0;
   right: 0;
   top: 0;
@@ -174,9 +174,10 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #a4c639;
+	background-color: #e78e18;
 	height: 46px;
 	line-height: 46px;
+	width: 100%;
 }
 
 .sub-header ul li {
@@ -185,7 +186,7 @@ a.border-button:hover {
 
 .sub-header ul.left-info li {
 	border-left: 1px solid rgba(250,250,250,0.3);
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 .sub-header ul.left-info li:last-child {
@@ -193,7 +194,7 @@ a.border-button:hover {
 }
 
 .sub-header ul.left-info li i {
-	margin-right: 10px;
+	margin-right: 5px;
 	font-size: 18px;
 }
 
